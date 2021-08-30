@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -239,7 +240,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  position: relative;
+  margin: 0 0 300px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
@@ -1054,7 +1056,7 @@ section {
 #footer {
   padding: 15px;
   color: #f4f6fd;
-  font-size: 14px;
+  font-size: 8px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -1065,12 +1067,13 @@ section {
 
 #footer .copyright {
   text-align: center;
+  font-size: 8px;
 }
 
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 13px;
+  font-size: 8px;
   color: #eaebf0;
 }
 
